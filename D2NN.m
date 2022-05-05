@@ -3,6 +3,7 @@ classdef D2NN
     %   衍射深度神经网络 模型与训练算法
 	%	Reference: < In situ optical backpropagation training of diffractive optical neural networks >
 
+
     properties (Constant, GetAccess = private)
         c0 = 299792458 * 1e3;   % 光速，单位mm/s
     end
